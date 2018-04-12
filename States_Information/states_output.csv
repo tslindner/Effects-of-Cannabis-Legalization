@@ -1,0 +1,29 @@
+State,Abbr,R-Legal,R-Posess,R-Retail,Decrim-Pos
+Alaska,AK,2014,2015,2016,True
+California,CA,2016,2016,2018,True
+Colorado,CO,2012,2012,2014,True
+Connecticut,CT,,,,True
+Delaware,DE,,,,True
+District of Columbia,DC,2014,2015,,True
+Illinois,IL,,,,True
+Maine,ME,2016,2017,expected 2018,True
+Nebraska,NE,,,,True
+Nevada,NV,2016,2017,2017,True
+New Hampshire,NH,,,,True
+New Jersey,NJ,expected 2018,,,
+New York,NY,,,,True
+North Carolina,NC,,,,True
+Ohio,OH,,,,True
+Oklahoma,OK,expected 2018,,,
+Oregon,OR,2014,2015,2016,True
+Maryland,MD,,,,True
+Massachusetts,MA,2016,2016,expected 2018,True
+Michigan,MI,expected 2018,,,
+Minnesota,MN,,,,True
+Mississippi,MS,,,,True
+Missouri,MO,expected 2018,,,True
+Rhode Island,RI,,,,True
+Utah,UT,expected 2018,,,
+Vermont,VT,2018,expected 2018,,True
+Virginia,VA,expected 2018,,,
+Washington,WA,2012,2012,2014,
