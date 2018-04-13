@@ -111,7 +111,7 @@ state_dict_2012 = {'Colorado' : co_df,
                     'Washington' : wa_df}
 
 state_dict_2014 = {'Alaska' : ak_df,
-                   'DC' : dc_df,
+                   'District of Columbia' : dc_df,
                    'Oregon' : or_df}
 
 state_dict_2016 = {'California' : ca_df,
@@ -277,3 +277,46 @@ def avg_age_graph(df):
     # Convert list of average ages to Pandas series and plot
     avg_age_list = pd.Series(avg_age_list)
     avg_age_list.plot.line()
+    
+    
+#  Average of total pops in ALL states in a given dictionary with a given urban percentage
+
+def avg_age_from_dict(dictionary, high, low):
+    
+    age_list = []
+    avg_age = []
+    
+    for key in dictionary:
+        
+        try:
+            df = urban_slice(dictionary[key], key, high, low)
+            tot = df.loc[df['AGEGRP'] == 0, ]
+            tot_group_year = tot.groupby('YEAR')
+            tot_group_year = tot_group_year.sum()
+            tot_group_year.reset_index(inplace=True)
+            
+            tot_year = tot_group_year['TOT_POP'].values.tolist()
+            if len(tot_year) == 7:
+                print(key)
+                age_list.append(tot_year)
+            else:
+                print(f'There are no entries in {key} for an urban percentage between {low} and {high}')
+            
+        except:
+             continue   
+    if len(age_list) > 0:    
+        for i in range(len(age_list[0])):
+
+            for j in range(len(age_list)):
+                loop_list = []
+                loop_list.append(age_list[j][i])
+
+            loop_avg = sum(loop_list) / len(loop_list)
+            avg_age.append(loop_list)
+
+
+        plt.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], avg_age)
+    
+    else:
+        print(f'There are no entries in this dictionary for an urban percentage between {low} and {high}')
+        
