@@ -279,43 +279,65 @@ def avg_age_graph(df):
     avg_age_list.plot.line()
     
     
-#  Average of total pops in ALL states in a given dictionary with a given urban percentage
-
-def avg_age_from_dict(dictionary, high, low):
+# Generates plot of average of total pops in ALL states in a given dictionary with a given urban percentage
+def avg_pop_from_dict(dictionary, high, low):
     
-    age_list = []
-    avg_age = []
+    # Will be list of lists, where the inner lists are tot pops separated by year
+    pop_list = []
+    
+    # Will be our final list of pops, which will be plotted
+    avg_pop = []
     
     for key in dictionary:
         
         try:
+            # Get desired slice
             df = urban_slice(dictionary[key], key, high, low)
+            
+            # Functionally the same as total_graph(), but without the graphing
+            # AGEGRP 0 is tot pop
             tot = df.loc[df['AGEGRP'] == 0, ]
             tot_group_year = tot.groupby('YEAR')
             tot_group_year = tot_group_year.sum()
             tot_group_year.reset_index(inplace=True)
             
             tot_year = tot_group_year['TOT_POP'].values.tolist()
+            
+            # This checks to make sure there was actually data in the urban_slice df
             if len(tot_year) == 7:
+                
+                # Add the list to our list of lists
                 print(key)
-                age_list.append(tot_year)
+                pop_list.append(tot_year)
+                
             else:
                 print(f'There are no entries in {key} for an urban percentage between {low} and {high}')
             
         except:
              continue   
-    if len(age_list) > 0:    
-        for i in range(len(age_list[0])):
+                
+    # First check to make sure there is any data to work with
+    if len(pop_list) > 0:    
+        
+        # This bit is complicated.  
+        # I need to iterate over a list of lists, but I need to get the average of all the first items, then average the second items, etc.
+        
+        # Iterator for each item in each list in our list of lists
+        for i in range(len(pop_list[0])):
 
-            for j in range(len(age_list)):
+            # iterator for each list in our list of lists
+            for j in range(len(pop_list)):
+                
+                # loop_list contains the first item of each list, then the second, etc.
                 loop_list = []
-                loop_list.append(age_list[j][i])
-
+                loop_list.append(pop_list[j][i])
+            
+            # Get the average pop for the current loop, add it to our final list
             loop_avg = sum(loop_list) / len(loop_list)
-            avg_age.append(loop_list)
+            avg_pop.append(loop_list)
 
 
-        plt.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], avg_age)
+        plt.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], avg_pop)
     
     else:
         print(f'There are no entries in this dictionary for an urban percentage between {low} and {high}')
