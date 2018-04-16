@@ -1,10 +1,4 @@
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Metropolitan/Nonmetropolitan,County,"Violent 
-crime","Murder and 
+,County,Violent crime,"Murder and 
 nonnegligent 
 manslaughter","Forcible 
 rape",Robbery,"Aggravated 
@@ -12,65 +6,70 @@ assault","Property
 crime",Burglary,"Larceny-
 theft","Motor 
 vehicle 
-theft",Arson,Total
-Metropolitan Counties,Adams County,419,7,70,55,287,"2,346",521,"1,404",421,24,"5,554"
-,Arapahoe County,218,1,38,31,148,"1,293",358,818,117,16,"3,038"
-,Boulder County,54,0,13,5,36,521,147,339,35,8,"1,158"
-,Clear Creek County,14,0,1,0,13,72,17,49,6,7,179
-,Douglas County,139,0,28,5,106,"1,343",300,"1,007",36,17,"2,981"
-,Elbert County,4,0,0,0,4,66,29,34,3,1,141
-,El Paso County,424,2,68,30,324,,,"1,416",205,38,"2,507"
-,Gilpin County,14,0,3,0,11,33,19,11,3,0,94
-,Jefferson County,148,1,22,11,114,"2,666",471,"2,083",112,17,"5,645"
-,Larimer County,150,1,14,9,126,"1,005",208,740,57,6,"2,316"
-,Mesa County,194,3,54,13,124,"1,303",224,960,119,15,"3,009"
-,Park County,20,0,3,0,17,59,27,30,2,4,162
-,Teller County,21,0,3,0,18,78,28,47,3,2,200
-,Weld County,151,4,9,5,133,804,248,492,64,11,"1,921"
-Nonmetropolitan Counties,Alamosa County,7,0,0,0,7,35,14,19,2,1,85
-,Archuleta County,14,0,2,0,12,104,43,54,7,3,239
-,Baca County,3,0,0,0,3,4,2,2,0,0,14
-,Bent County,14,0,0,1,13,89,37,50,2,0,206
-,Chaffee County,3,0,2,0,1,78,24,51,3,1,163
-,Cheyenne County,2,0,0,0,2,20,3,15,2,1,45
-,Conejos County,3,0,0,0,3,50,23,20,7,3,109
-,Costilla County,6,0,0,0,6,13,8,1,4,0,38
-,Crowley County,11,0,0,0,11,2,1,1,0,0,26
-,Custer County,5,0,1,0,4,51,13,35,3,1,113
-,Delta County,9,0,0,0,9,153,21,117,15,0,324
-,Dolores County,1,0,0,0,1,26,15,11,0,0,54
-,Eagle County,26,1,6,1,18,344,73,267,4,10,750
-,Fremont County,34,0,6,1,27,249,111,128,10,0,566
-,Garfield County,14,1,4,0,9,165,39,116,10,1,359
-,Gunnison County,11,0,0,0,11,40,9,28,3,0,102
-,Hinsdale County,0,0,0,0,0,10,5,5,0,0,20
-,Huerfano County,1,0,0,0,1,16,3,4,9,0,34
-,Kiowa County,2,0,0,0,2,1,0,0,1,0,6
-,Kit Carson County,2,0,1,0,1,25,4,18,3,0,54
-,Lake County,5,0,0,0,5,29,8,20,1,0,68
-,Lincoln County,1,0,0,0,1,28,9,18,1,0,58
-,Logan County,15,1,1,1,12,98,40,54,4,0,226
-,Mineral County,0,0,0,0,0,1,0,0,1,0,2
-,Moffat County,3,0,0,0,3,23,10,13,0,0,52
-,Montezuma County,32,1,1,2,28,112,41,60,11,1,289
-,Montrose County,30,1,4,0,25,232,91,123,18,2,526
-,Morgan County,8,0,0,0,8,101,23,74,4,1,219
-,Otero County,12,0,3,0,9,76,33,42,1,0,176
-,Ouray County,0,0,0,0,0,3,2,1,0,0,6
-,Pitkin County,11,0,1,0,10,34,0,34,0,0,90
-,Prowers County,10,0,0,0,10,26,6,18,2,0,72
-,Rio Blanco County,2,0,0,0,2,43,3,40,0,0,90
-,Rio Grande County,3,0,0,0,3,3,2,1,0,0,12
-,Routt County,6,0,0,0,6,32,5,20,7,0,76
-,Saguache County,9,0,0,0,9,44,17,23,4,0,106
-,San Juan County,1,0,0,0,1,16,4,11,1,0,34
-,San Miguel County,0,0,0,0,0,0,0,0,0,0,0
-,Sedgwick County,5,0,0,0,5,18,6,11,1,0,46
-,Summit County,17,1,10,0,6,227,28,194,5,2,490
-,Washington County,16,0,3,0,13,76,15,56,5,1,185
-,Yuma County,2,2,0,0,0,23,1,20,2,0,50
-"1 Because of changes in the state/local agency's reporting practices, figures are not comparable to previous years' data.",,,,,,,,,,,,
-"2 The FBI determined that the agency's data were overreported.  Consequently, affected data are not included in this table.",,,,,,,,,,,,
+theft",Arson,
+,Adams County,419,7,70,55,287,"2,346",521,"1,404",421,24,
+,Arapahoe County,218,1,38,31,148,"1,293",358,818,117,16,
+,Boulder County,54,0,13,5,36,521,147,339,35,8,
+,Clear Creek County,14,0,1,0,13,72,17,49,6,7,
+,Douglas County,139,0,28,5,106,"1,343",300,"1,007",36,17,
+,Elbert County,4,0,0,0,4,66,29,34,3,1,
+,El Paso County,424,2,68,30,324,,,"1,416",205,38,
+,Gilpin County,14,0,3,0,11,33,19,11,3,0,
+,Jefferson County,148,1,22,11,114,"2,666",471,"2,083",112,17,
+,Larimer County,150,1,14,9,126,"1,005",208,740,57,6,
+,Mesa County,194,3,54,13,124,"1,303",224,960,119,15,
+,Park County,20,0,3,0,17,59,27,30,2,4,
+,Teller County,21,0,3,0,18,78,28,47,3,2,
+,Weld County,151,4,9,5,133,804,248,492,64,11,
+,Alamosa County,7,0,0,0,7,35,14,19,2,1,
+,Archuleta County,14,0,2,0,12,104,43,54,7,3,
+,Baca County,3,0,0,0,3,4,2,2,0,0,
+,Bent County,14,0,0,1,13,89,37,50,2,0,
+,Chaffee County,3,0,2,0,1,78,24,51,3,1,
+,Cheyenne County,2,0,0,0,2,20,3,15,2,1,
+,Conejos County,3,0,0,0,3,50,23,20,7,3,
+,Costilla County,6,0,0,0,6,13,8,1,4,0,
+,Crowley County,11,0,0,0,11,2,1,1,0,0,
+,Custer County,5,0,1,0,4,51,13,35,3,1,
+,Delta County,9,0,0,0,9,153,21,117,15,0,
+,Dolores County,1,0,0,0,1,26,15,11,0,0,
+,Eagle County,26,1,6,1,18,344,73,267,4,10,
+,Fremont County,34,0,6,1,27,249,111,128,10,0,
+,Garfield County,14,1,4,0,9,165,39,116,10,1,
+,Gunnison County,11,0,0,0,11,40,9,28,3,0,
+,Hinsdale County,0,0,0,0,0,10,5,5,0,0,
+,Huerfano County,1,0,0,0,1,16,3,4,9,0,
+,Kiowa County,2,0,0,0,2,1,0,0,1,0,
+,Kit Carson County,2,0,1,0,1,25,4,18,3,0,
+,Lake County,5,0,0,0,5,29,8,20,1,0,
+,Lincoln County,1,0,0,0,1,28,9,18,1,0,
+,Logan County,15,1,1,1,12,98,40,54,4,0,
+,Mineral County,0,0,0,0,0,1,0,0,1,0,
+,Moffat County,3,0,0,0,3,23,10,13,0,0,
+,Montezuma County,32,1,1,2,28,112,41,60,11,1,
+,Montrose County,30,1,4,0,25,232,91,123,18,2,
+,Morgan County,8,0,0,0,8,101,23,74,4,1,
+,Otero County,12,0,3,0,9,76,33,42,1,0,
+,Ouray County,0,0,0,0,0,3,2,1,0,0,
+,Pitkin County,11,0,1,0,10,34,0,34,0,0,
+,Prowers County,10,0,0,0,10,26,6,18,2,0,
+,Rio Blanco County,2,0,0,0,2,43,3,40,0,0,
+,Rio Grande County,3,0,0,0,3,3,2,1,0,0,
+,Routt County,6,0,0,0,6,32,5,20,7,0,
+,Saguache County,9,0,0,0,9,44,17,23,4,0,
+,San Juan County,1,0,0,0,1,16,4,11,1,0,
+,San Miguel County,0,0,0,0,0,0,0,0,0,0,
+,Sedgwick County,5,0,0,0,5,18,6,11,1,0,
+,Summit County,17,1,10,0,6,227,28,194,5,2,
+,Washington County,16,0,3,0,13,76,15,56,5,1,
+,Yuma County,2,2,0,0,0,23,1,20,2,0,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,

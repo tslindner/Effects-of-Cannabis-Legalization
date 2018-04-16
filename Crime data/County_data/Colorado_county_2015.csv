@@ -1,10 +1,4 @@
-Table 10,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Metropolitan/Nonmetropolitan,County,"Violent
-crime","Murder and
+,County,Violent crime,"Murder and
 nonnegligent
 manslaughter","Rape
 (revised
@@ -16,7 +10,7 @@ crime",Burglary,"Larceny-
 theft","Motor
 vehicle
 theft",Arson3
-Metropolitan Counties,Adams County,476,6,93,,68,309,"2,649",468,"1,518",663,19
+,Adams County,476,6,93,,68,309,"2,649",468,"1,518",663,19
 ,Arapahoe County,225,2,70,,21,132,"1,304",331,819,154,15
 ,Boulder County,106,0,28,,6,72,527,135,360,32,9
 ,Clear Creek County,19,0,0,,0,19,84,21,50,13,2
@@ -30,7 +24,7 @@ Metropolitan Counties,Adams County,476,6,93,,68,309,"2,649",468,"1,518",663,19
 ,Pueblo County,17,1,1,,1,14,"1,186",210,855,121,2
 ,Teller County,18,0,5,,1,12,65,17,46,2,0
 ,Weld County,141,2,20,,5,114,689,200,424,65,10
-Nonmetropolitan Counties,Archuleta County,32,0,2,,1,29,125,44,72,9,0
+,Archuleta County,32,0,2,,1,29,125,44,72,9,0
 ,Baca County,6,0,0,,0,6,5,2,2,1,0
 ,Chaffee County,9,0,1,,2,6,51,10,38,3,0
 ,Cheyenne County,6,0,0,,0,6,1,1,0,0,0
@@ -67,10 +61,15 @@ Nonmetropolitan Counties,Archuleta County,32,0,2,,1,29,125,44,72,9,0
 ,Saguache County,2,0,0,,0,2,42,22,17,3,0
 ,Summit County,28,1,16,,0,11,222,33,178,11,0
 ,Washington County,13,0,0,,0,13,40,10,24,6,1
-1 The figures shown in this column for the offense of rape were reported using the revised Uniform Crime Reporting (UCR) definition of rape. See the data declaration for further explanation.,,,,,,,,,,,,
-2 The figures shown in this column for the offense of rape were reported using the legacy UCR definition of rape. See the data declaration for further explanation.,,,,,,,,,,,,
-3 The FBI does not publish arson data unless it receives data from either the agency or the state for all 12 months of the calendar year.,,,,,,,,,,,,
-"4 The FBI determined that the agency's data were underreported. Consequently, those data are not included in this table.",,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,

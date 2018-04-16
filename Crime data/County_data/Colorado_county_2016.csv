@@ -1,10 +1,4 @@
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-Metropolitan/ Nonmetropolitan,County,"Violent
-crime","Murder and
+,County,Violent crime,"Murder and
 nonnegligent
 manslaughter","Rape
 (revised
@@ -16,7 +10,7 @@ crime",Burglary,"Larceny-
 theft","Motor
 vehicle
 theft",Arson
-Metropolitan Counties,Adams County,523,11,94,,93,325,"2,954",437,"1,582",935,33
+,Adams County,523,11,94,,93,325,"2,954",437,"1,582",935,33
 ,Arapahoe County,269,4,74,,46,145,"1,381",269,904,208,25
 ,Boulder County,83,1,20,,6,56,586,161,388,37,10
 ,Clear Creek County,15,0,1,,0,14,64,10,48,6,18
@@ -30,7 +24,7 @@ Metropolitan Counties,Adams County,523,11,94,,93,325,"2,954",437,"1,582",935,33
 ,Pueblo County,35,2,1,,6,26,"1,309",291,858,160,3
 ,Teller County,6,0,1,,0,5,90,23,59,8,1
 ,Weld County,102,0,12,,6,84,847,259,472,116,4
-Nonmetropolitan Counties,Alamosa County,6,0,2,,0,4,73,9,59,5,0
+,Alamosa County,6,0,2,,0,4,73,9,59,5,0
 ,Archuleta County,19,0,3,,1,15,106,32,71,3,0
 ,Baca County,1,0,0,,0,1,1,0,1,0,0
 ,Bent County,7,0,2,,1,4,139,63,71,5,1
@@ -68,6 +62,11 @@ Nonmetropolitan Counties,Alamosa County,6,0,2,,0,4,73,9,59,5,0
 ,San Miguel County,7,0,1,,0,6,3,2,1,0,0
 ,Summit County,30,0,20,,2,8,241,49,183,9,2
 ,Washington County,7,0,5,,0,2,88,24,61,3,1
-1 The figures shown in this column for the offense of rape were reported using the revised Uniform Crime Reporting (UCR) definition of rape. See the data declaration for further explanation.,,,,,,,,,,,,
-2 The figures shown in this column for the offense of rape were reported using the legacy UCR definition of rape. See the data declaration for further explanation.,,,,,,,,,,,,
-"3 The FBI determined that the agency's data were underreported. Consequently, those data are not included in this table.",,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
