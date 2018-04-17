@@ -1,32 +1,32 @@
-Purpose: Compilation on population from the States.ipynb data set  to help set parameters for data exploration,
-States That Have Legalized - Year,Population that year  (in millions)
-Colorado - 2012,5.186
-Washington - 2012,6.891
-Alaska - 2014,"736,759"
-Oregon- 2014,3.961
-California - 2016,38.7
-Nevada- 2016 ,2.939
-"Based on above data, the top four states should be: Colorado, Washington, Oregon, and Nevada ",
-,
-Top Four States ,Top Metropolition Cities in that State  (Population)
-Colorado,"Denver (682,545) , Colorado Springs  (456,568)"
-Washington,"Seattle (704,352) , Spokane (215,973)"
-Oregon,"Portland (632,309), Salem (164,549)"
-Nevada,"Las Vegas (623,747), Henderson (285,667) "
-"Based on above data, the top four cities in that state should be: Denver, Seattle, Portland, Las Vegas ",
-,
-"States That Have Not Legalized, but expected to in 2018",Population as of 2017 (in millions)
-New Jersey,9.006
-Oklahoma,3.93
-Michigan,9.962
-Missouri,6.114
-Utah,3.102
-Virginia ,8.47
-"Based on above data, the top four states should be:  New Jersey, Michigan, Missouri, Virgina",
-,
-Top Four States ,Top Metropolition Cities in that State  (Population)
-New Jersey,"Newark (281,764), Jersey City (254,152)"
-Michigan,"Detroit (672,795), Grand Rapids (196,445)"
-Missouri,"Kansas City (481,420), St. Loius (315,685)"
-Virginia ,"Virginia Beach (452,745), Norfolk (245,393)"
-"Based on above data, the top four cities in that state should be: Newark, Detroit, Kansas City, Virgina Beach",
+Purpose: Compilation on population from the States.ipynb data set  to help set parameters for data exploration,,,,,,,
+States That Have Legalized - Year,Population that year  (in millions),,,,,,
+Colorado - 2012,5.186,,,,,,
+Washington - 2012,6.891,,,,,,
+Alaska - 2014,"736,759",,,,,,
+Oregon- 2014,3.961,,,,,,
+California - 2016,38.7,,,,,,
+Nevada- 2016 ,2.939,,,,,,
+"Based on above data, the top four states should be: Colorado, Washington, Oregon, and Nevada ",,,,,,,
+,,,,,,,
+Top Four States ,Top Metropolition Cities in that State  (Population),,,,,,
+Colorado,"Denver (682,545) , Colorado Springs  (456,568)",,,,,,
+Washington,"Seattle (704,352) , Spokane (215,973)",,,,,,
+Oregon,"Portland (632,309), Salem (164,549)",,,,,,
+Nevada,"Las Vegas (623,747), Henderson (285,667) ",,,,,,
+"Based on above data, the top four cities in that state should be: Denver, Seattle, Portland, Las Vegas ",,,,,,,
+,,,,,,,
+"States That Have Not Legalized, but expected to in 2018",Population as of 2017 (in millions),,,,,,
+New Jersey,9.006,,,,,,
+Oklahoma,3.93,,,,,,
+Michigan,9.962,,,,,,
+Missouri,6.114,,,,,,
+Utah,3.102,,,,,,
+Virginia ,8.47,,,,,,
+"Based on above data, the top four states should be:  New Jersey, Michigan, Missouri, Virginia",,,,,,,
+,,,,,,,
+Top Four States ,Top Metropolition Cities in that State  (Population),,,,,,
+New Jersey,"Newark (281,764), Jersey City (254,152)",,,,,,
+Michigan,"Detroit (672,795), Grand Rapids (196,445)",,,,,,
+Missouri,"Kansas City (481,420), St. Loius (315,685)",,,,,,
+Virginia ,"Virginia Beach (452,745), Norfolk (245,393)",,,,,,
+"Based on above data, the top four cities in that state should be: Newark, Detroit, Kansas City, Virgina Beach",,,,,,,
