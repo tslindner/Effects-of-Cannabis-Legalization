@@ -1,1 +1,74 @@
-﻿Type,County,"Violent crime","Murder and nonnegligent manslaughter","Forcible rape",Robbery,"Aggravated assault","Property crime",Burglary,"Larceny-theft","Motor vehicle theft",ArsonMetropolitan ,Barry,37,0,12,1,24,384,126,235,23,4Metropolitan ,Bay,40,0,10,2,28,701,129,547,25,6Metropolitan ,Berrien,108,0,21,8,79,729,182,515,32,5Metropolitan ,Calhoun,65,0,8,2,55,488,163,300,25,8Metropolitan ,Cass,39,0,19,6,14,699,214,456,29,7Metropolitan ,Clinton,7,0,3,0,4,202,75,120,7,2Metropolitan ,Eaton,91,0,25,17,49,"1,536",307,"1,187",42,1Metropolitan ,Genesee,35,0,11,2,22,520,138,351,31,1Metropolitan ,Ingham,97,0,15,11,71,801,245,513,43,4Metropolitan ,Ionia,43,1,19,1,22,352,158,178,16,4Metropolitan ,Jackson,122,3,13,5,101,519,129,363,27,2Metropolitan ,Kalamazoo,176,2,29,34,111,"2,103",547,"1,466",90,17Metropolitan ,Kent,401,2,65,48,286,"3,304",935,"2,229",140,31Metropolitan ,Lapeer,41,1,2,0,38,450,121,295,34,0Metropolitan ,Livingston,67,1,15,9,42,733,185,515,33,7Metropolitan ,Macomb,399,0,52,37,310,"2,306",438,"1,740",128,12Metropolitan ,Monroe,229,2,53,41,133,"2,381",640,"1,587",154,25Metropolitan ,Muskegon,36,1,11,3,21,780,180,570,30,2Metropolitan ,Newaygo,33,0,11,0,22,402,179,203,20,4Metropolitan ,Oakland,293,2,43,45,203,"3,809",853,"2,802",154,85Metropolitan ,Ottawa,304,0,110,15,179,"3,096",739,"2,296",61,21Metropolitan ,Saginaw,92,0,18,11,63,483,136,327,20,1Metropolitan ,St. Clair,146,1,19,17,109,"1,507",414,"1,018",75,21Metropolitan ,Van Buren,106,0,24,1,81,580,155,386,39,2Metropolitan ,Washtenaw,460,4,57,77,322,"2,439",953,"1,260",226,17Metropolitan ,Wayne,6,0,1,1,4,5,0,3,2,0Nonmetropolitan,Alcona,18,1,6,0,11,102,42,60,0,0Nonmetropolitan,Allegan,96,0,30,4,62,810,280,489,41,8Nonmetropolitan,Alpena,5,0,2,0,3,77,21,55,1,0Nonmetropolitan,Antrim,37,0,11,1,25,378,158,210,10,0Nonmetropolitan,Arenac,25,0,0,1,24,100,44,53,3,1Nonmetropolitan,Baraga,1,0,0,0,1,28,11,17,0,2Nonmetropolitan,Benzie,21,0,3,1,17,232,58,170,4,2Nonmetropolitan,Branch,19,0,5,2,12,193,35,149,9,0Nonmetropolitan,Charlevoix,24,0,7,2,15,154,46,100,8,4Nonmetropolitan,Cheboygan,8,0,1,1,6,183,96,74,13,2Nonmetropolitan,Chippewa,6,0,3,0,3,116,40,64,12,0Nonmetropolitan,Crawford,38,0,5,0,33,213,97,103,13,0Nonmetropolitan,Delta,2,0,0,0,2,67,15,45,7,1Nonmetropolitan,Emmet,20,0,3,0,17,189,30,155,4,2Nonmetropolitan,Gladwin,13,0,3,1,9,208,62,138,8,1Nonmetropolitan,Grand Traverse,70,1,17,8,44,764,120,621,23,4Nonmetropolitan,Gratiot,10,0,5,0,5,135,28,95,12,1Nonmetropolitan,Hillsdale,34,0,12,4,18,184,69,101,14,2Nonmetropolitan,Houghton,4,0,4,0,0,113,23,83,7,0Nonmetropolitan,Huron,12,0,1,0,11,102,28,70,4,2Nonmetropolitan,Iosco,1,0,0,0,1,7,4,3,0,0Nonmetropolitan,Iron,7,0,2,1,4,44,13,30,1,1Nonmetropolitan,Isabella,46,0,12,3,31,391,129,249,13,2Nonmetropolitan,Kalkaska,60,0,12,0,48,332,108,207,17,0Nonmetropolitan,Lenawee,50,0,17,3,30,362,121,232,9,6Nonmetropolitan,Luce,10,0,3,0,7,66,17,48,1,0Nonmetropolitan,Mackinac,4,0,0,0,4,109,42,64,3,1Nonmetropolitan,Manistee,8,0,4,0,4,105,28,74,3,1Nonmetropolitan,Marquette,5,0,1,0,4,196,38,151,7,0Nonmetropolitan,Mecosta,144,0,8,0,136,684,272,389,23,6Nonmetropolitan,Midland,64,0,26,0,38,473,124,343,6,2Nonmetropolitan,Missaukee,1,0,1,0,0,151,43,108,0,0Nonmetropolitan,Montcalm,66,2,16,1,47,463,184,261,18,4Nonmetropolitan,Montmorency,4,1,1,0,2,24,10,11,3,1Nonmetropolitan,Oceana,31,0,12,0,19,324,96,220,8,0Nonmetropolitan,Ogemaw,17,0,3,0,14,236,115,113,8,0Nonmetropolitan,Ontonagon,6,0,1,0,5,18,7,9,2,0Nonmetropolitan,Osceola,23,0,6,0,17,201,87,105,9,1Nonmetropolitan,Oscoda,30,0,1,0,29,177,70,101,6,0Nonmetropolitan,Otsego,6,1,2,0,3,77,17,57,3,0Nonmetropolitan,Presque Isle,4,0,1,0,3,55,28,24,3,0Nonmetropolitan,Roscommon,18,0,8,0,10,176,53,118,5,1Nonmetropolitan,Sanilac,25,0,11,0,14,195,71,115,9,2Nonmetropolitan,Shiawassee,51,1,8,1,41,441,134,281,26,1Nonmetropolitan,St. Joseph,45,2,12,1,30,281,83,176,22,5Nonmetropolitan,Tuscola,34,0,3,1,30,277,111,149,17,1Nonmetropolitan,Wexford,45,0,11,3,31,430,94,315,21,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+County,Violent crime,"Murder and nonnegligent manslaughter","Forcible rape",Robbery,"Aggravated assault","Property crime",Burglary,"Larceny-theft","Motor vehicle theft",Arson
+Barry,37,0,12,1,24,384,126,235,23,4
+Bay,40,0,10,2,28,701,129,547,25,6
+Berrien,108,0,21,8,79,729,182,515,32,5
+Calhoun,65,0,8,2,55,488,163,300,25,8
+Cass,39,0,19,6,14,699,214,456,29,7
+Clinton,7,0,3,0,4,202,75,120,7,2
+Eaton,91,0,25,17,49,"1,536",307,"1,187",42,1
+Genesee,35,0,11,2,22,520,138,351,31,1
+Ingham,97,0,15,11,71,801,245,513,43,4
+Ionia,43,1,19,1,22,352,158,178,16,4
+Jackson,122,3,13,5,101,519,129,363,27,2
+Kalamazoo,176,2,29,34,111,"2,103",547,"1,466",90,17
+Kent,401,2,65,48,286,"3,304",935,"2,229",140,31
+Lapeer,41,1,2,0,38,450,121,295,34,0
+Livingston,67,1,15,9,42,733,185,515,33,7
+Macomb,399,0,52,37,310,"2,306",438,"1,740",128,12
+Monroe,229,2,53,41,133,"2,381",640,"1,587",154,25
+Muskegon,36,1,11,3,21,780,180,570,30,2
+Newaygo,33,0,11,0,22,402,179,203,20,4
+Oakland,293,2,43,45,203,"3,809",853,"2,802",154,85
+Ottawa,304,0,110,15,179,"3,096",739,"2,296",61,21
+Saginaw,92,0,18,11,63,483,136,327,20,1
+St. Clair,146,1,19,17,109,"1,507",414,"1,018",75,21
+Van Buren,106,0,24,1,81,580,155,386,39,2
+Washtenaw,460,4,57,77,322,"2,439",953,"1,260",226,17
+Wayne,6,0,1,1,4,5,0,3,2,0
+Alcona,18,1,6,0,11,102,42,60,0,0
+Allegan,96,0,30,4,62,810,280,489,41,8
+Alpena,5,0,2,0,3,77,21,55,1,0
+Antrim,37,0,11,1,25,378,158,210,10,0
+Arenac,25,0,0,1,24,100,44,53,3,1
+Baraga,1,0,0,0,1,28,11,17,0,2
+Benzie,21,0,3,1,17,232,58,170,4,2
+Branch,19,0,5,2,12,193,35,149,9,0
+Charlevoix,24,0,7,2,15,154,46,100,8,4
+Cheboygan,8,0,1,1,6,183,96,74,13,2
+Chippewa,6,0,3,0,3,116,40,64,12,0
+Crawford,38,0,5,0,33,213,97,103,13,0
+Delta,2,0,0,0,2,67,15,45,7,1
+Emmet,20,0,3,0,17,189,30,155,4,2
+Gladwin,13,0,3,1,9,208,62,138,8,1
+Grand Traverse,70,1,17,8,44,764,120,621,23,4
+Gratiot,10,0,5,0,5,135,28,95,12,1
+Hillsdale,34,0,12,4,18,184,69,101,14,2
+Houghton,4,0,4,0,0,113,23,83,7,0
+Huron,12,0,1,0,11,102,28,70,4,2
+Iosco,1,0,0,0,1,7,4,3,0,0
+Iron,7,0,2,1,4,44,13,30,1,1
+Isabella,46,0,12,3,31,391,129,249,13,2
+Kalkaska,60,0,12,0,48,332,108,207,17,0
+Lenawee,50,0,17,3,30,362,121,232,9,6
+Luce,10,0,3,0,7,66,17,48,1,0
+Mackinac,4,0,0,0,4,109,42,64,3,1
+Manistee,8,0,4,0,4,105,28,74,3,1
+Marquette,5,0,1,0,4,196,38,151,7,0
+Mecosta,144,0,8,0,136,684,272,389,23,6
+Midland,64,0,26,0,38,473,124,343,6,2
+Missaukee,1,0,1,0,0,151,43,108,0,0
+Montcalm,66,2,16,1,47,463,184,261,18,4
+Montmorency,4,1,1,0,2,24,10,11,3,1
+Oceana,31,0,12,0,19,324,96,220,8,0
+Ogemaw,17,0,3,0,14,236,115,113,8,0
+Ontonagon,6,0,1,0,5,18,7,9,2,0
+Osceola,23,0,6,0,17,201,87,105,9,1
+Oscoda,30,0,1,0,29,177,70,101,6,0
+Otsego,6,1,2,0,3,77,17,57,3,0
+Presque Isle,4,0,1,0,3,55,28,24,3,0
+Roscommon,18,0,8,0,10,176,53,118,5,1
+Sanilac,25,0,11,0,14,195,71,115,9,2
+Shiawassee,51,1,8,1,41,441,134,281,26,1
+St. Joseph,45,2,12,1,30,281,83,176,22,5
+Tuscola,34,0,3,1,30,277,111,149,17,1
+Wexford,45,0,11,3,31,430,94,315,21,4
