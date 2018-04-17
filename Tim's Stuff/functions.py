@@ -62,6 +62,58 @@ wv_df = csv_extractor('West Virginia')
 wi_df = csv_extractor('Wisconsin')
 wy_df = csv_extractor('Wyoming')
 
+state_dict = {'Alabama' : al_df,
+              'Arizona' : az_df,
+              'Arkansas' : ar_df,
+              'Connecticut' : ct_df,
+              'Delaware' : de_df,
+              'Florida' : fl_df,
+              'Georgia' : ga_df,
+              'Hawaii' : hi_df,
+              'Idaho' : id_df,
+              'Illinois' : il_df,
+              'Indiana' : in_df,
+              'Iowa' : ia_df,
+              'Kansas' : ks_df,
+              'Kentucky' : ky_df,
+              'Louisiana' : la_df,
+              'Montana' : mt_df,
+              'Nebraska' : ne_df,
+              'New Hampshire' : nh_df,
+              'New Jersey' : nj_df,
+              'New Mexico' : nm_df,
+              'New York' : ny_df,
+              'North Carolina' : nc_df,
+              'North Dakota' : nd_df,
+              'Ohio' : oh_df,
+              'Oklahoma' : ok_df,
+              'Maryland' : md_df,
+              'Michigan' : mi_df,
+              'Minnesota' : mn_df,
+              'Mississippi' : ms_df,
+              'Missouri' : mo_df,
+              'Pennsylvania' : pa_df,
+              'Rhode Island' : ri_df,
+              'South Carolina' : sc_df,
+              'South Dakota' : sd_df,
+              'Tennessee' : tn_df,
+              'Texas' : tx_df,
+              'Utah' : ut_df,
+              'Vermont' : vt_df,
+              'Virginia' : va_df,
+              'West Virginia' : wv_df,
+              'Wisconsin' : wi_df,
+              'Wyoming' : wy_df,
+              'Colorado' : co_df,
+              'Washington' : wa_df,
+              'Alaska' : ak_df,
+              'District of Columbia' : dc_df,
+              'Oregon' : or_df,
+              'California' : ca_df,
+              'Maine' : me_df,
+              'Nevada' : nv_df,
+              'Massachusetts' : ma_df}
+
 state_dict1 = {'Alabama' : al_df,
               'Arizona' : az_df,
               'Arkansas' : ar_df,
@@ -124,8 +176,61 @@ state_dict_2018 = {'New Jersey' : nj_df,
                    'Michigan' : mi_df,
                    'Missouri' : mo_df,
                    'Utah' : ut_df,
-                   'Vermont' : vt_df,
                    'Virginia' : va_df}
+
+state_dict_illegal = {'Alabama' : al_df,
+                      'Arizona' : az_df,
+                      'Arkansas' : ar_df,
+                      'Connecticut' : ct_df,
+                      'Delaware' : de_df,
+                      'Florida' : fl_df,
+                      'Georgia' : ga_df,
+                      'Hawaii' : hi_df,
+                      'Idaho' : id_df,
+                      'Illinois' : il_df,
+                      'Indiana' : in_df,
+                      'Iowa' : ia_df,
+                      'Kansas' : ks_df,
+                      'Kentucky' : ky_df,
+                      'Louisiana' : la_df,
+                      'Montana' : mt_df,
+                      'Nebraska' : ne_df,
+                      'New Hampshire' : nh_df,
+                      'New Jersey' : nj_df,
+                      'New Mexico' : nm_df,
+                      'New York' : ny_df,
+                      'North Carolina' : nc_df,
+                      'North Dakota' : nd_df,
+                      'Ohio' : oh_df,
+                      'Oklahoma' : ok_df,
+                      'Maryland' : md_df,
+                      'Michigan' : mi_df,
+                      'Minnesota' : mn_df,
+                      'Mississippi' : ms_df,
+                      'Missouri' : mo_df,
+                      'Pennsylvania' : pa_df,
+                      'Rhode Island' : ri_df,
+                      'South Carolina' : sc_df,
+                      'South Dakota' : sd_df,
+                      'Tennessee' : tn_df,
+                      'Texas' : tx_df,
+                      'Utah' : ut_df,
+                      'Vermont' : vt_df,
+                      'Virginia' : va_df,
+                      'West Virginia' : wv_df,
+                      'Wisconsin' : wi_df,
+                      'Wyoming' : wy_df,
+                      'California' : ca_df,
+                      'Nevada' : nv_df}
+
+state_dict_legal = {'Colorado' : co_df,
+                    'Washington' : wa_df,
+                    'Alaska' : ak_df,
+                    'District of Columbia' : dc_df,
+                    'Oregon' : or_df,
+                    'Maine' : me_df,
+                    'Massachusetts' : ma_df}
+                    
 
 # CSV containing urban/rural info by county
 urban_path = 'Demographics/PctUrbanRural_County.txt'
@@ -282,6 +387,8 @@ def avg_age_graph(df):
 # Generates plot of average of total pops in ALL states in a given dictionary with a given urban percentage
 def avg_pop_from_dict(dictionary, high, low):
     
+    fig, ax = plt.subplots()
+    
     # Will be list of lists, where the inner lists are tot pops separated by year
     pop_list = []
     
@@ -337,7 +444,7 @@ def avg_pop_from_dict(dictionary, high, low):
             avg_pop.append(loop_avg)
 
 
-        plt.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], avg_pop)
+        ax.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], avg_pop)
     
     else:
         print(f'There are no entries in this dictionary for an urban percentage between {low} and {high}')
@@ -345,7 +452,7 @@ def avg_pop_from_dict(dictionary, high, low):
         
 # Generates plot of average percent change in pop in all counties in a given dictionary with a given urban percentage
 def avg_pop_change_from_dict(dictionary, high, low):
-    
+        
     # Will be list of lists, where the inner lists are tot pops separated by year
     pop_list = []
     
@@ -407,9 +514,94 @@ def avg_pop_change_from_dict(dictionary, high, low):
 
 
         plt.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], avg_pop)
-        #plt.ylim(0.95, 1.05)
     
     else:
         print(f'There are no entries in this dictionary for an urban percentage between {low} and {high}')
         
 
+test_dict = {'Colorado' : co_df,
+            'Washington' : wa_df}
+
+def crime_add(dictionary, high, low):
+    crime_dict = {}
+    for key in dictionary:
+        first_pass = True
+        
+        try:
+            df = urban_slice(dictionary[key], key, high, low)
+
+            for i in range(3,10):
+                path = f'Crime_by_county/crime_by_county_{i}.xls'
+                crime_df = pd.read_excel(path, skiprows=[0,1,2,3]) 
+
+                df_year = df.loc[df['YEAR'] == i]
+
+                crime_df = crime_df.loc[crime_df['State'] == key, : ]
+                for index, row in crime_df.iterrows():
+                    county = row[2]
+                    county = county + ' County'
+                    crime_df.set_value(index, 'County', county)
+
+                df_year = df_year.merge(crime_df, how='inner', left_on='CTYNAME', right_on='County')
+
+                del df_year['SUMLEV']
+                del df_year['County']
+                del df_year['STATE']
+                del df_year['State and extra bits']
+                del df_year['COUNTY']
+                df_year['Totalcrime'] = (df_year['Violentcrime'] +
+                                         df_year['Murderandnonnegligentmanslaughter'] +
+                                         df_year['Robbery'] +
+                                         df_year['Aggravatedassault'] +
+                                         df_year['Propertycrime'] +
+                                         df_year['Burglary'] +
+                                         df_year['Larceny-theft'] +
+                                         df_year['Motorvehicletheft'])
+                
+                if first_pass == True:
+                    crime_dict[f'{key}'] = df_year
+                    first_pass = False
+                    
+                else:
+                    crime_dict[f'{key}'] = pd.concat([crime_dict[f'{key}'], df_year], axis=0, ignore_index=True, join='inner')
+
+        except:
+            print(f'Error with {key}')
+    return crime_dict
+
+def tot_crime_graph(inpt, crime, high, low):
+    if type(inpt) == dict:
+        dictionary = crime_add(inpt, high, low)
+        output = []
+        states = []
+        for i in range(3, 10):
+            output.append([])
+            for key in dictionary:
+                index = i - 3
+                loop_series = dictionary[f'{key}'].loc[dictionary[f'{key}']['YEAR'] == i, : ]
+                loop_series = loop_series.groupby('CTYNAME').sum()[f'{crime}'] / 19
+                loop_total = loop_series.sum()
+                output[index].append(loop_total)
+                if i == 3:
+                    states.append(key)
+
+        for i in range(3, 10):
+            index = i - 3
+            loop_sum = 0
+
+            for j in output[index]:
+                loop_sum = loop_sum + j
+
+            output[index] = loop_sum / len(output[index])
+
+        print(f'{crime} in {states}')
+        plt.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], output)
+        
+    #elif type(inpt) == pd.DataFrame:
+#'Violentcrime', 'Murderandnonnegligentmanslaughter', 'Robbery',
+#       'Aggravatedassault', 'Propertycrime', 'Burglary', 'Larceny-theft',
+#       'Motorvehicletheft'
+
+crime_list = ['Violentcrime', 'Murderandnonnegligentmanslaughter', 'Robbery',
+       'Aggravatedassault', 'Propertycrime', 'Burglary', 'Larceny-theft',
+       'Motorvehicletheft', 'Totalcrime']
