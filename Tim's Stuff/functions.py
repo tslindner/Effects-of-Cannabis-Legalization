@@ -225,11 +225,12 @@ state_dict_illegal = {'Alabama' : al_df,
 
 state_dict_legal = {'Colorado' : co_df,
                     'Washington' : wa_df,
-                    'Alaska' : ak_df,
                     'District of Columbia' : dc_df,
                     'Oregon' : or_df,
                     'Maine' : me_df,
                     'Massachusetts' : ma_df}
+
+#Took alaska out of legal
                     
 
 # CSV containing urban/rural info by county
@@ -593,9 +594,15 @@ def tot_crime_graph(inpt, crime, high, low):
                 loop_sum = loop_sum + j
 
             output[index] = loop_sum / len(output[index])
+            
+        fig, ax2 = plt.subplots()
 
         print(f'{crime} in {states}')
-        plt.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], output)
+        
+        avg_pop_from_dict(inpt, high, low)
+
+        
+        ax2.plot(['2010', '2011', '2012', '2013', '2014', '2015', '2016'], output)
         
     #elif type(inpt) == pd.DataFrame:
 #'Violentcrime', 'Murderandnonnegligentmanslaughter', 'Robbery',
