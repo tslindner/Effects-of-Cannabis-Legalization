@@ -1,58 +1,58 @@
-County,Violent Crime
-Alameda3,588
-Butte,82
-Contra Costa,412
-El Dorado,240
-Fresno,735
-Imperial,214
-Kern3,"1,982"
-Kings,144
-Los Angeles,"5,091"
-Madera,383
-Marin,91
-Merced,465
-Monterey,256
-Napa,42
-Orange3,252
-Placer,289
-Riverside,749
-Sacramento3,"2,978"
-San Benito,60
-San Bernardino,972
-San Diego3,"1,315"
-San Joaquin3,698
-San Luis Obispo,265
-San Mateo,264
-Santa Barbara,302
-Santa Clara,255
-Santa Cruz,286
-Shasta3,569
-Solano,102
-Sonoma,613
-Stanislaus,365
-Sutter,93
-"Tulare3, 4",446
-Ventura3,119
-Yolo,74
-Yuba,205
-Alpine,4
-Amador,55
-Calaveras,106
-Colusa,25
-Del Norte,102
-Glenn,81
-Humboldt,202
-Inyo,79
-Lake,193
-Lassen,33
-Mariposa,71
-Mendocino,310
-Modoc,20
-Mono,8
-Nevada,145
-Plumas,90
-Sierra,11
-Siskiyou3,31
-Tehama,156
-Trinity,34
-Tuolumne,129
+County,Violent crime
+Alameda3,588.0
+Butte,82.0
+Contra Costa,412.0
+El Dorado,240.0
+Fresno,735.0
+Imperial,214.0
+Kern3,1982.0
+Kings,144.0
+Los Angeles,5091.0
+Madera,383.0
+Marin,91.0
+Merced,465.0
+Monterey,256.0
+Napa,42.0
+Orange3,252.0
+Placer,289.0
+Riverside,749.0
+Sacramento3,2978.0
+San Benito,60.0
+San Bernardino,972.0
+San Diego3,1315.0
+San Joaquin3,698.0
+San Luis Obispo,265.0
+San Mateo,264.0
+Santa Barbara,302.0
+Santa Clara,255.0
+Santa Cruz,286.0
+Shasta3,569.0
+Solano,102.0
+Sonoma,613.0
+Stanislaus,365.0
+Sutter,93.0
+"Tulare3, 4",446.0
+Ventura3,119.0
+Yolo,74.0
+Yuba,205.0
+Alpine,4.0
+Amador,55.0
+Calaveras,106.0
+Colusa,25.0
+Del Norte,102.0
+Glenn,81.0
+Humboldt,202.0
+Inyo,79.0
+Lake,193.0
+Lassen,33.0
+Mariposa,71.0
+Mendocino,310.0
+Modoc,20.0
+Mono,8.0
+Nevada,145.0
+Plumas,90.0
+Sierra,11.0
+Siskiyou3,31.0
+Tehama,156.0
+Trinity,34.0
+Tuolumne,129.0
