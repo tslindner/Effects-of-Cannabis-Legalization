@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
 
 # For reading in csvs and cutting off useless cells
 def csv_extractor(state):
@@ -229,6 +231,27 @@ state_dict_legal = {'Colorado' : co_df,
                     'Oregon' : or_df,
                     'Maine' : me_df,
                     'Massachusetts' : ma_df}
+
+co_dict = {'Colorado' : co_df}
+wa_dict = {'Washington' : wa_df}
+or_dict = {'Oregon' : or_df}
+nv_dict = {'Nevada' : nv_df}
+ca_dict = {'California' : ca_df}
+ok_dict = {'Oklahoma' : ok_df}
+mi_dict = {'Michigan' : mi_df}
+mo_dict = {'Missouri' : mo_df}
+ut_dict = {'Utah' : ut_df}
+
+sample_dict = {'Colorado' : co_df,
+               'Washington' : wa_df,
+               'Oregon' : or_df,
+               'Nevada' : nv_df,
+               'California' : ca_df,
+               'Oklahoma' : ok_df,
+               'Michigan' : mi_df,
+               'Missouri' : ms_df,
+               'Utah' : ut_df}
+
 
 #Took alaska out of legal
                     
